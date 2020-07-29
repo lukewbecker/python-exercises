@@ -4,4 +4,4 @@ Learning python at CodeUp! I'll amend this page as needed to load the proper lib
 
 Libraries currently in use:
 python: 
-    - pydataset
+    pydataset
