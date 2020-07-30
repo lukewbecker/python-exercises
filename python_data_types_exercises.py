@@ -32,7 +32,7 @@ type({'a': []})
 # An email address typed into a registration form? str
 # The price of a product? Float
 # A Matrix? dict
-# The email addresses collected from a registration form? list
+# The email addresses collected from a registration form? dict
 # Information about applicants to Codeup's data science program? dict
 
 # For each of the following code blocks, read the expression and predict what the result of evaluating it would be, then execute the expression in your Python REPL.
