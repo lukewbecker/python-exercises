@@ -158,10 +158,18 @@ else:
 # I see a problem with the logic in the 'if' statement - what happens if the basket size is less than 2?
 # Then the logic would incorrectly return False (I think), because of the and statment.
 
+# Use the following code to follow the instructions below:
 username = 'codeup'
 password = 'notastrongpassword'
 
-password_len = True
-username_len = True
-password_username_comp = True
-whitespace_bonus = True
+username == username.strip()
+password == password.strip()
+
+password >= 5
+username <= 20
+password != username
+
+
+fav_number = 4
+
+message_fav = f"my favorite number is {fav_number}"
