@@ -173,3 +173,14 @@ password != username
 fav_number = 4
 
 message_fav = f"my favorite number is {fav_number}"
+
+# weekday question
+week_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+weekend_days = ["Saturday", "Sunday"]
+
+day_week_input = input("What day of the week is it? ")
+
+if day_week_input in week_days:
+    print("It is a weekday, I get to learn python!")
+else:
+    print("Yay it's the weekend!!!")
