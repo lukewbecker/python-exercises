@@ -51,7 +51,6 @@ while i <= 15:
     print(i)
     i += 1
 
-# end of exercise file
 
 # More basic loop exercises
 n = 2
@@ -345,3 +344,4 @@ for i in range(0, x):
     if book_dict[i]["genre"] == genre_pick:
         print(book_dict[i]["title"])
 
+# end of exercise file
