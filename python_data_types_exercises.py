@@ -184,3 +184,23 @@ if day_week_input in week_days:
     print("It is a weekday, I get to learn python!")
 else:
     print("Yay it's the weekend!!!")
+
+# conditional exercises...
+
+user_input_test = int(input("Please pick an odd number between 1 - 50: "))
+
+while user_input_test % 2 == 0:
+    print("This is an odd number, try again")
+    user_input_test = int(input("Enter an odd number: "))
+    if user_input_test % 2 != 0 and user_input_test < 51:
+        break
+
+print("yay, you got it right!")
+
+for n in range(51):
+    if n % 2 == 0:
+        continue
+    if n == user_input:
+        print("Yikes! skipping number: {}".format(n))
+        continue
+    print('Here is an odd number: {}'.format(n))
