@@ -52,26 +52,28 @@ while i <= 15:
     i += 1
 
 
-# More basic loop exercises
+# Create a while loop that will count by 2's 
+# starting with 0 and ending at 100. Follow each number with a new line.
 n = 2
 while n <= 100:
     print(n)
     n += 2
 
-
+# Alter your loop to count backwards by 5's from 100 to -10
 n = 100
 while n >= -10:
     print(n)
     n -= 5
 
 
-
+# Create a while loop that starts at 2, 
+# and displays the number squared on each line while the number is less than 1,000,000. Output should equal:
 n = 2
 while n <= 1000000:
     print(n)
     n **= 2
 
-
+# Write a loop that uses print to create the output shown below.
 n = 100
 while n >= 5:
     print(n)

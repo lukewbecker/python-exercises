@@ -27,7 +27,7 @@ print("Exercise is correct")
 
 def is_vowel(value):
     vowels = ["a", "e", "i", "o", "u"]
-        assert type(value) == str, "Input must be a string"
+    assert type(value) == str, "Input must be a string"
     if value.lower() in vowels:
         return True
     else:
@@ -124,17 +124,6 @@ print(handle_commas("1,000"))
 assert handle_commas("1,000") == 1000
 assert handle_commas("2,000") == 2000
 print("Exercise is correct")
-
-
-
-
-assert get_letter_grade(85) == "B"
-assert get_letter_grade(99) == "A"
-print("Exercise is correct")
-
-    assert x == int, "Please use an integer, not a float or a string"
-
-
 
 
 # Define a function named get_letter_grade. 
