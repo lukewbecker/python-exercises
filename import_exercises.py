@@ -75,7 +75,7 @@ jpd = json.load(jsonprofile_load)
 
 # Total number of users
 
-total_users_count = len(key_id)
+total_users_count = len(jpd)
 print(f"Total number of users is: {total_users_count}")
 
 
