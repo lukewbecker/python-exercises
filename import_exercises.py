@@ -73,6 +73,10 @@ import json
 jsonprofile_load = open('profiles.json')
 jpd = json.load(jsonprofile_load)
 
+
+key_id = [c for c in jpd]
+key_id
+
 # Total number of users
 
 total_users_count = len(jpd)
@@ -191,7 +195,7 @@ def total_msgs():
     # Extract all numbers, as a list of strings
     msg_nums = re.findall('[0-9]+', string_convert)
     # Convert strings to ints, using list comprehension
-    msg_nums = [int(i) for i in total_msg_count_2]
+    msg_nums = [int(i) for i in msg_nums]
     # Now, sum the list for total unread msgs
     total_unread = sum(msg_nums)
     return total_unread
